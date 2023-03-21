@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <div class="container">
+            <h1 center>Student Registration Form</h1>
+            <hr>
+          <label>Firstname:</label>
+            <input type="text" name="firstname" placeholder="Firstname" size="15" required/>
+            <label>Middlename:</label>
+            <input type="text" name="middlename" placeholder="Middlename" size="15" required/>
+            <label>Lastname:</label>
+            <input type="text" name="lastname" placeholder="Lastname" size="15" required/>
+        <div>
+        <label>course:</label>
+        <select>
+            <option value="Course">Course</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="MBA">MBA</option>
+            <option value="MCA">MCA</option>
+            <option value="M.Tech">M.Tech</option>
+            </select>
+            </div>
+            <div>
+                <label>
+                    Gender:
+                </label><br>
+                <input type="radio" value="Male" name="gender" checked>Male
+                <input type="radio" value="Female" name="gender" checked>Female
+                <input type="radio" value="Other" name="gender" checked>Other
+            </div>
+            <label>
+                phone:
+            </label>
+            <input type="radio" name="country code" placeholder="Country Code" value="+90" size="2"/>
+            <input type="radio" name="phone" placeholder="phone no." size="10">
+            Current Address:
+            <textarea cols="80" rows="5" placeholder="Current Address" value="address">
+            </textarea>
+            <label>
+            ngClass="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email">
+            <label>
+            ngClass="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw">
+            <label >
+                ngClass="psw-repeat"><b>Re-typePassword</b>
+            </label>
+            <input type="password" placeholder="Retype Password" name="psw-repeat">
+            <button type="submit" class="registerbtn">Register</button>
+            </div>
+            </form>
+             </body>
+             </html>

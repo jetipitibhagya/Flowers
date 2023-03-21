@@ -1,0 +1,34 @@
+.row{
+    display: flex;
+    align-items: center;
+
+    gap: 1.5em;
+}
+
+.row .image{
+    padding-top: 10rem;
+    text-align: center;
+}
+
+.row .image img{
+    height:35rem;
+    animation: float 4s linear infinite;
+}
+
+.row .content h4{
+    font-size: 3.5rem;
+    color: #6f4e37;
+    text-transform: uppercase;
+}
+
+.image-slider{
+    text-align: center;
+    padding:3rem 0 ;
+}
+
+.image-slider img{
+    height:9rem;
+    margin:0 .5rem;
+    cursor: pointer;
+    margin-top: 5rem;
+}

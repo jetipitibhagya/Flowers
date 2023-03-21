@@ -1,0 +1,25 @@
+body{
+    background-color: cornsilk;
+}
+h1{
+    text-align: center;
+    color: #6F4E37;
+    text-transform: capitalize;
+}
+h1:hover{
+    color: #f1a839a8;
+}
+
+a:link,a:visited{
+    background-color: white;
+    color: gray;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+
+a:hover,a:active{
+    background-color: #6F4E37;
+}

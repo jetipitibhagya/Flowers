@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("/assets/images/coffee1.jpg");
+}
+
+.book h1 {
+    text-align: center;
+    color: brown;
+    background-color: white;
+    text-transform: capitalize;
+}
+
+.book form {
+    margin:0 auto 30px auto;
+    max-width: 500px;
+    padding: 50px;
+}
+
+.book form .box1{
+    width: 100%;
+    padding:15px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    background: gold;
+    text-transform: none;
+    margin:10px 0px;
+}
+button{
+    color:black;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+}
